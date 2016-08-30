@@ -43,8 +43,9 @@ alias gbS='git show-branch -a'
 
 # Commit (c)
 alias gc='git commit --verbose'
+alias gc!='git commit --amend'
 alias gca='git commit --verbose --all'
-alias gcm='git commit --message'
+alias gcm='git checkout master'
 alias gco='git checkout'
 alias gcO='git checkout --patch'
 alias gcf='git commit --amend --reuse-message HEAD'
@@ -169,6 +170,7 @@ alias gSu='git submodule foreach git pull origin master'
 alias gSx='git-submodule-remove'
 
 # Working Copy (w)
+alias gst='git status'
 alias gws='git status --ignore-submodules=${_git_status_ignore_submodules} --short'
 alias gwS='git status --ignore-submodules=${_git_status_ignore_submodules}'
 alias gwd='git diff --no-ext-diff'
