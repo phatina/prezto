@@ -78,7 +78,7 @@ Aliases
 
 ### Data
 
-  - `gd` displays information about files in the index and the work tree.
+  - `gd` displays a diff.
   - `gdc` lists cached files.
   - `gdx` lists deleted files.
   - `gdm` lists modified files.
@@ -104,9 +104,9 @@ Aliases
 
 ### Index
 
-  - `gia` adds file contents to the index.
-  - `giA` adds file contents to the index interactively.
-  - `giu` adds file contents to the index (updates only known files).
+  - `ga` adds file contents to the index.
+  - `gap` adds file contents to the index interactively.
+  - `gau` adds file contents to the index (updates only known files).
   - `gid` displays changes between the index and a named commit (diff).
   - `giD` displays changes between the index and a named commit (word diff).
   - `gir` resets the current HEAD to the specified state.
