@@ -40,7 +40,8 @@ zstyle ':prezto:load' pmodule \
   'gnu-utility' \
   'gpg' \
   'ssh' \
-  'git'
+  'git' \
+  'personal'
 
 #
 # Autosuggestions
