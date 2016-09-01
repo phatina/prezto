@@ -23,6 +23,15 @@ zstyle ':prezto:*:*' color 'yes'
 
 # Set the Prezto modules to load (browse modules).
 # The order matters.
+
+parent_cmd=$(ps -p $PPID -o comm | tail -n 1)
+if [ $parent_cmd = "mc" ]; then
+    # Midnight commander optimization
+    unset RPROMPT
+else
+    autosuggestions='autosuggestions'
+fi
+
 zstyle ':prezto:load' pmodule \
   'environment' \
   'terminal' \
@@ -41,7 +50,9 @@ zstyle ':prezto:load' pmodule \
   'gpg' \
   'ssh' \
   'git' \
-  'personal'
+  'personal' \
+  $autosuggestions
+
 
 #
 # Autosuggestions
