@@ -6,6 +6,11 @@ alias m='make'
 alias mm='make -j4'
 alias e='nvim'
 
+# Directory movement
+alias ...='cd ../..'
+alias ....='cd ../../..'
+alias .....='cd ../../../..'
+
 alias gdbtui='gdb -tui'
 alias ipython='ipython --no-confirm-exit'
 #
