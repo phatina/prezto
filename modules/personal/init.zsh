@@ -4,7 +4,7 @@ alias ll='ls -GFhl --color'
 alias grep='grep --color'
 alias m='make'
 alias mm='make -j4'
-alias e='nvim'
+alias e='vim'
 
 # Directory movement
 alias ...='cd ../..'
