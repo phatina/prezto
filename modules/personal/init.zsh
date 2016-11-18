@@ -45,3 +45,5 @@ function rhpkg_srpm {
 function rhpkg_sb {
     pkg_sb rhpkg $@
 }
+
+source ${0:h}/vim/ycm.zsh
